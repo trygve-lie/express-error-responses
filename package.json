@@ -1,0 +1,32 @@
+{
+    "name": "express-error-responses",
+    "version": "0.1.0",
+    "description": "Express middleware for sending HTTP error resonses",
+    "main": "lib/middleware.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:trygve-lie/express-error-responses.git"
+    },
+    "bugs": {
+    "url": "https://github.com/trygve-lie/express-error-responses/issues"
+    },
+    "scripts": {
+        "pretest": "jshint ./lib/*.js ./test/*.js",
+        "test": "tap test/*.js"
+    },
+    "keywords": [
+        "express",
+        "error",
+        "status",
+        "http"
+    ],
+    "author": "Trygve Lie <github@trygve-lie.com>",
+    "license": "MIT",
+    "dependencies": {
+        "core-util-is": "1.x"
+    },
+    "devDependencies": {
+        "jshint": "latest",
+        "tap": "latest"
+    }
+}
