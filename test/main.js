@@ -3,12 +3,12 @@
 "use strict";
 
 var tap     = require('tap'),
-    error   = require('../lib/error.js');
+    mod   	= require('../');
 
 
 
-tap.test('error.error() - no parameters provided', function (t) {
-    var result = error.error();
+tap.test('main.errors.error()', function (t) {
+    var result = mod.errors.error();
     t.type(result, 'Error');
     t.equal(result.type, 'GenericError');
     t.notOk(result.message);  // should be null

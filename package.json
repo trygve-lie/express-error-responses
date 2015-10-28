@@ -2,7 +2,7 @@
     "name": "express-error-responses",
     "version": "0.2.0",
     "description": "Express middleware for sending HTTP error resonses",
-    "main": "lib/middleware.js",
+    "main": "lib/main.js",
     "repository": {
         "type": "git",
         "url": "git@github.com:trygve-lie/express-error-responses.git"
