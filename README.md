@@ -1,6 +1,6 @@
 # express-error-responses
 
-[![Dependencies](https://img.shields.io/david/trygve-lie/express-error-responses.svg?style=flat-square)](https://david-dm.org/trygve-lie/express-error-responses)[![Build Status](http://img.shields.io/travis/trygve-lie/express-error-responses/master.svg?style=flat-square)](https://travis-ci.org/trygve-lie/express-error-responses)
+[![Dependencies](https://img.shields.io/david/trygve-lie/express-error-responses.svg?style=flat-square)](https://david-dm.org/trygve-lie/express-error-responses)[![Build Status](http://img.shields.io/travis/trygve-lie/express-error-responses/master.svg?style=flat-square)](https://travis-ci.org/trygve-lie/express-error-responses) [![Greenkeeper badge](https://badges.greenkeeper.io/trygve-lie/express-error-responses.svg)](https://greenkeeper.io/)
 
 
 Express middleware for sending HTTP error resonses
